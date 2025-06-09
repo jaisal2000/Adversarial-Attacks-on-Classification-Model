@@ -1,4 +1,4 @@
-# Adversarial-Attacks-on-ResNeXt101ect
+
 
 # 🔐 Adversarial Exploits and Security Evaluation in Transfer-Learned Image Classification
 
@@ -35,25 +35,14 @@ This project investigates the **security vulnerabilities of deep learning models
   - Perturb the input image in the direction of the gradient sign
   - Evaluate model accuracy on perturbed images
 
-## 📉 Results
+## 📉 Visualization of Results
 
-| Epsilon (ε) | Accuracy (%) |
-|-------------|---------------|
-| 0.0         | ~94           |
-| 0.05        | ~82           |
-| 0.10        | ~65           |
-| 0.15        | ~48           |
-| 0.20        | ~35           |
-| 0.30        | ~20           |
+![image](https://github.com/user-attachments/assets/03eac39d-7bfe-4b7d-ac8b-510d42210122)
+
 
 - Accuracy **drops significantly** as ε increases
 - Visualization confirms **subtle perturbations can cause misclassification**
 
-## 🔍 Visualizations
-
-- Accuracy vs. Epsilon plot
-- Original vs. Perturbed Image comparisons
-- Heatmaps (optional) to show perturbation regions
 
 ## 🔐 Security Implications
 
